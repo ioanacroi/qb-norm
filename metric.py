@@ -1,14 +1,9 @@
+"""Code from https://github.com/albanie/collaborative-experts/blob/master/model/metric.py """
 """Module for computing performance metrics
 
 """
-import math
-import numbers
-from pathlib import Path
-
 import numpy as np
-import torch
 import scipy.stats
-from sklearn.metrics import average_precision_score
 
 
 def t2v_metrics(sims, query_masks=None):
