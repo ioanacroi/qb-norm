@@ -1,9 +1,19 @@
 **Usage example**
+
 ```
-dynamic_inverted_softmax.py --sims_train_test_path msrvtt/tt-ce-train-captions-test-videos-seed0.pkl --sims_test_path msrvtt/tt-ce-test-captions-test-videos-seed0.pkl --test_query_masks_path msrvtt/tt-ce-test-query_masks.pkl
+python dynamic_inverted_softmax.py --sims_train_test_path msrvtt/tt-ce-train-captions-test-videos-seed0.pkl --sims_test_path msrvtt/tt-ce-test-captions-test-videos-seed0.pkl --test_query_masks_path msrvtt/tt-ce-test-query_masks.pkl
+```
+
+To test *QB-Norm* on your own data you need to:
+1. Extract the similarity matrix between the caption from the training split and the videos from the testing split ``` path/to/sims/train/test```
+2. Extract testing split similarity matrix (similarities between testing captions and testing video) ``` path/to/sims/test ```
+3. Run *QB-Norm*
+```
+python dynamic_inverted_softmax.py --sims_train_test_path path/to/sims/train/test --sims_test_path path/to/sims/test
 ```
 
 **Data**
+
 The similarity matrices for CE+ and TT-CE+ were extracted using the weights and data provided in their [official repo](https://github.com/albanie/collaborative-experts).
 You can download the extracted similarity matrices for training and testing here:
 ```
@@ -21,4 +31,10 @@ http:/www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msrvtt-sims.tar.gz
 | TT-CE+ (+QB-Norm) | Full | t2v | <sub><sup>17.3<sub>(0.0)</sub></sup></sub> | <sub><sup>42.1<sub>(0.2)</sub></sup></sub> | <sub><sup>54.9<sub>(0.1)</sub></sup></sub> | <sub><sup>8.0<sub>(0.0)</sub></sup></sub> | <sub><sup>34.2<sub>(0.1)</sub></sup></sub> |
 
 
+### References
 
+[1] If you find this code useful or use the extracted features, please consider citing:
+
+```
+TODO
+```

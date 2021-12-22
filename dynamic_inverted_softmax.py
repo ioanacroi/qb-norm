@@ -47,6 +47,8 @@ def main():
 
     train_test = pkl.load(open(args["sims_train_test_path"], 'rb'))
     test_test = pkl.load(open(args["sims_test_path"], 'rb'))
+    msg = "Expected train_test_matrix.shape[1] == test_matrix.shape[1]"
+    assert train_test.shape[1] == test_test.shape[1], msg
     test_query_masks_path = args.get("test_query_masks_path", None)
     if test_query_masks_path:
         test_query_masks = pkl.load(open(test_query_masks_path, 'rb'))
