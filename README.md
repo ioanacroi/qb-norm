@@ -17,7 +17,11 @@ python dynamic_inverted_softmax.py --sims_train_test_path path/to/sims/train/tes
 **Data**
 
 The similarity matrices for each method were extracted using the official repositories as follows: [CE+](https://github.com/albanie/collaborative-experts), [TT-CE+](https://github.com/albanie/collaborative-experts), [CLIP2Video](https://github.com/CryhanFang/CLIP2Video), [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip) (we used the official repo to train from scratch new models since they do not provide pre-trained weights).
-You can download the extracted similarity matrices for training and testing here: [MSRVTT](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msrvtt-sims.tar.gz), [MSVD](/projects/vgg/vgg/WWW/research/teachtext/QB-Norm/msvd-sims.tar.gz), [DiDeMo](/projects/vgg/vgg/WWW/research/teachtext/QB-Norm/didemo-sims.tar.gz), [LSMDC](/projects/vgg/vgg/WWW/research/teachtext/QB-Norm/lsmdc-sims.tar.gz).
+
+You can download the extracted similarity matrices for training and testing here: [MSRVTT](https:/www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msrvtt-sims.tar.gz),
+[MSVD](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msvd-sims.tar.gz), 
+[DiDeMo](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/didemo-sims.tar.gz),
+[LSMDC](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/lsmdc-sims.tar.gz).
 
 **QB-Norm Results on MSRVTT Benchmark**
 
