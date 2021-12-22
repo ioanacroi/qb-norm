@@ -1,3 +1,5 @@
+This repo provides code for *QB-Norm* ([```Cross Modal Retrieval with Querybank Normalisation```](https://vladbogo.github.io/QB-Norm/))
+
 **Usage example**
 
 ```
@@ -33,7 +35,7 @@ http:/www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msrvtt-sims.tar.gz
 
 ### References
 
-[1] If you find this code useful or use the extracted features, please consider citing:
+If you find this code useful or use the extracted features, please consider citing:
 
 ```
 TODO
