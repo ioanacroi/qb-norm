@@ -70,5 +70,12 @@ You can download the extracted similarity matrices for training and testing here
 If you find this code useful or use the extracted similarity matrices, please consider citing:
 
 ```
-TODO
+@misc{bogolin2021cross,
+      title={Cross Modal Retrieval with Querybank Normalisation}, 
+      author={Simion-Vlad Bogolin and Ioana Croitoru and Hailin Jin and Yang Liu and Samuel Albanie},
+      year={2021},
+      eprint={2112.12777},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
