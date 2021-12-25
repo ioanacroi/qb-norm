@@ -14,7 +14,7 @@ To test *QB-Norm* on your own data you need to:
 python dynamic_inverted_softmax.py --sims_train_test_path path/to/sims/train/test --sims_test_path path/to/sims/test
 ```
 
-**Data**
+###Data
 
 The similarity matrices for each method were extracted using the official repositories as follows:
 [CE+](https://github.com/albanie/collaborative-experts),
@@ -31,7 +31,7 @@ You can download the extracted similarity matrices for training and testing here
 [DiDeMo](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/didemo-sims.tar.gz),
 [LSMDC](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/lsmdc-sims.tar.gz).
 
-*Text-Video retrieval results*
+###Text-Video retrieval results
 
 **QB-Norm Results on MSRVTT Benchmark**
 
@@ -85,7 +85,8 @@ You can download the extracted similarity matrices for training and testing here
 | TT-CE+ | Full | t2v | <sub><sup>14.4<sub>(0.5)</sub></sup></sub> | <sub><sup>37.7<sub>(1.7)</sub></sup></sub> | <sub><sup>50.9<sub>(1.6)</sub></sup></sub> | <sub><sup>9.8<sub>(1.0)</sub></sup></sub> | <sub><sup>30.3<sub>(0.9)</sub></sup></sub> |
 | TT-CE+ (+QB-Norm) | Full | t2v | <sub><sup>15.1<sub>(1.6)</sub></sup></sub> | <sub><sup>38.3<sub>(2.4)</sub></sup></sub> | <sub><sup>51.2<sub>(2.8)</sub></sup></sub> | <sub><sup>10.3<sub>(1.7)</sub></sup></sub> | <sub><sup>30.9<sub>(2.3)</sub></sup></sub> |
 
-*Text-Image retrieval results*
+###Text-Image retrieval results
+
 **QB-Norm Results on MSCoCo Benchmark**
 | Model | Split | Task | R@1 | R@5 | R@10 | MdR | Geom |
 | ----- | ------| ---- | --- | --- | ---- | --- | --- |
@@ -95,7 +96,8 @@ You can download the extracted similarity matrices for training and testing here
 | MMT-Oscar (+QB-Norm) | 5k | t2i | <sub><sup>53.9</sup></sub> | <sub><sup>80.5</sup></sub> | <sub><sup>88.1</sup></sub> | <sub><sup>1.0</sup></sub> | <sub><sup>72.6</sup></sub> |
 
 
-*Text-Audio retrieval results*
+###Text-Audio retrieval results
+
 **QB-Norm Results on AudioCaps Benchmark**
 | Model | Split | Task | R@1 | R@5 | R@10 | MdR | Geom |
 | ----- | ------| ---- | --- | --- | ---- | --- | --- |
