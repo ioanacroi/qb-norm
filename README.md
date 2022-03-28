@@ -69,7 +69,9 @@ You can download the extracted similarity matrices for training and testing here
 | TT-CE+ | Full | t2v | <sub><sup>17.2<sub>(0.4)</sub></sup></sub> | <sub><sup>36.5<sub>(0.6)</sub></sup></sub> | <sub><sup>46.3<sub>(0.3)</sub></sup></sub> | <sub><sup>13.7<sub>(0.5)</sub></sup></sub> | <sub><sup>30.7<sub>(0.3)</sub></sup></sub> |
 | TT-CE+ (+QB-Norm) | Full | t2v | <sub><sup>17.8<sub>(0.4)</sub></sup></sub> | <sub><sup>37.7<sub>(0.5)</sub></sup></sub> | <sub><sup>47.6<sub>(0.6)</sub></sup></sub> | <sub><sup>12.7<sub>(0.5)</sub></sup></sub> | <sub><sup>31.7<sub>(0.3)</sub></sup></sub> |
 | CLIP4Clip | Full | t2v | <sub><sup>21.3</sup></sub> | <sub><sup>40.0</sup></sub> | <sub><sup>49.5</sup></sub> | <sub><sup>11.0</sup></sub> | <sub><sup>34.8</sup></sub> |
-| CLIP4Clip (+QB-Norm) | Full | t2v | <sub><sup>22.4</sup></sub> | <sub><sup>40.1</sup></sub> | <sub><sup>49.5</sup></sub> | <sub><sup>11.0</sup></sub> | <sub><sup>35.4</sup></sub> |
+| CLIP4Clip (+QB-Norm) | Full | t2v | <sub><sup>22.3</sup></sub> | <sub><sup>40.1</sup></sub> | <sub><sup>49.5</sup></sub> | <sub><sup>11.0</sup></sub> | <sub><sup>35.4</sup></sub> |
+
+The temperature used for CLIP4Clip method on the LSMDC dataset is 0.8.
 
 **QB-Norm Results on VaTeX Benchmark**
 | Model | Split | Task | R@1 | R@5 | R@10 | MdR | Geom |
