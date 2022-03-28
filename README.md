@@ -33,9 +33,9 @@ You can download the extracted similarity matrices for training and testing here
 [DiDeMo](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/didemo-sims.tar.gz),
 [LSMDC](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/lsmdc-sims.tar.gz).
 
-The value used for the inverse temperature is 20, with the exception for CLIP2Video where we used 0.5 and CLIP4Clip where we used 0.45.
-
 ### Text-Video retrieval results
+
+The value used for the inverse temperature is 20, with the exception for CLIP2Video where we used 0.5 and CLIP4Clip where we used 0.45.
 
 **QB-Norm Results on MSRVTT Benchmark**
 
