@@ -42,7 +42,7 @@ def main():
             type=str, default=None,
             help="path to the query masks")
     args.add_argument("--beta", default=20.0, type=float)
-    args.add_argument("--k", default=1, type=float)
+    args.add_argument("--k", default=1, type=int)
     args = vars(args.parse_args())
 
     train_test = pkl.load(open(args["sims_train_test_path"], 'rb'))
