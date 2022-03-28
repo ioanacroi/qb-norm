@@ -33,6 +33,8 @@ You can download the extracted similarity matrices for training and testing here
 [DiDeMo](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/didemo-sims.tar.gz),
 [LSMDC](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/lsmdc-sims.tar.gz).
 
+The value used for the inverse temperature is 20, with the exception for CLIP2Video where we used 0.5 and CLIP4Clip where we used 0.45.
+
 ### Text-Video retrieval results
 
 **QB-Norm Results on MSRVTT Benchmark**
@@ -51,7 +53,7 @@ You can download the extracted similarity matrices for training and testing here
 | TT-CE+ | Full | t2v | <sub><sup>25.4<sub>(0.3)</sub></sup></sub> | <sub><sup>56.9<sub>(0.4)</sub></sup></sub> | <sub><sup>71.3<sub>(0.2)</sub></sup></sub> | <sub><sup>4.0<sub>(0.0)</sub></sup></sub> | <sub><sup>46.9<sub>(0.3)</sub></sup></sub> |
 | TT-CE+ (+QB-Norm) | Full | t2v | <sub><sup>26.6<sub>(1.0)</sub></sup></sub> | <sub><sup>58.6<sub>(1.3)</sub></sup></sub> | <sub><sup>71.8<sub>(1.1)</sub></sup></sub> | <sub><sup>4.0<sub>(0.0)</sub></sup></sub> | <sub><sup>48.2<sub>(1.2)</sub></sup></sub> |
 | CLIP2Video | Full | t2v | <sub><sup>47.0</sup></sub> | <sub><sup>76.8</sup></sub> | <sub><sup>85.9</sup></sub> | <sub><sup>2.0</sup></sub> | <sub><sup>67.7</sup></sub> |
-| CLIP2Video (+QB-Norm) | Full | t2v| <sub><sup>48.0</sup></sub> | <sub><sup>77.9</sup></sub> | <sub><sup>86.2</sup></sub> | <sub><sup>2.0</sup></sub> | <sub><sup>68.5</sup></sub> |
+| CLIP2Video (+QB-Norm) | Full | t2v| <sub><sup>47.6</sup></sub> | <sub><sup>77.6</sup></sub> | <sub><sup>86.1</sup></sub> | <sub><sup>2.0</sup></sub> | <sub><sup>68.5</sup></sub> |
 
 **QB-Norm Results on DiDeMo Benchmark**
 
