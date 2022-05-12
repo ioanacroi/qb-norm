@@ -27,15 +27,22 @@ The similarity matrices for each method were extracted using the official reposi
 [MMT](https://github.com/UKPLab/MMT-Retrieval),
 [Audio-Retrieval](https://github.com/oncescuandreea/audio-retrieval).
 
+Here you can find our trained weights for CLIP4Clip:
+[MSRVTT](https://www.robots.ox.ac.uk/~vgg/research/teachtext/CLIP4Clip-ckpts/MSRVTT-7k/pytorch_model.bin.4),
+[DiDeMo](https://www.robots.ox.ac.uk/~vgg/research/teachtext/CLIP4Clip-ckpts/DiDeMo/pytorch_model.bin.3),
+[LSMDC](https://www.robots.ox.ac.uk/~vgg/research/teachtext/CLIP4Clip-ckpts/LSMDC/pytorch_model.bin.3),
+[Activity-Net](https://www.robots.ox.ac.uk/~vgg/research/teachtext/CLIP4Clip-ckpts/ActivityNet/pytorch_model.bin.3).
+
 You can download the extracted similarity matrices for training and testing here:
 [MSRVTT](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msrvtt-sims.tar.gz),
+[MSRVTT 1kA CLIP2Video](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msrvtt-1ka-clip2video-sims.tar.gz),
 [MSVD](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/msvd-sims.tar.gz), 
 [DiDeMo](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/didemo-sims.tar.gz),
 [LSMDC](https://www.robots.ox.ac.uk/~vgg/research/teachtext/QB-Norm/lsmdc-sims.tar.gz).
 
 ### Text-Video retrieval results
 
-The value used for the inverse temperature is 20, with the exception for CLIP2Video where we used 0.5 and CLIP4Clip where we used 0.45.
+The value used for the inverse temperature is 20, with the exception for CLIP2Video where we used 1/1.99.
 
 **QB-Norm Results on MSRVTT Benchmark**
 
