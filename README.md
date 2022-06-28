@@ -1,4 +1,6 @@
-This paper was accepted at CVPR 2022!
+This paper was accepted at CVPR 2022! 
+
+Slow description [video](https://youtu.be/KSgmKIbyA8M).
 
 This repo provides code for *QB-Norm* ([```Cross Modal Retrieval with Querybank Normalisation```](https://vladbogo.github.io/QB-Norm/))
 
